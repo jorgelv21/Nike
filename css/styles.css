@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: helvetica;
+}
+
+#upper-navbar{
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+#jordan-container{
+    padding: 2rem;
+}
+
+#upper-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    padding: 3rem;
+}
+
+#upper-menu a{
+    font-size: 0.725rem;
+    color: #777;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo{
+    padding: 2rem;
+}
+nav{
+    height: 76px;
+}
+#navbar{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+#navbar li{
+    padding: 2em;
+}
+
+#navbar a{
+    color: #000;
+}
+
+#search-content{
+    display: flex;
+    padding: 0.8em;
+    background-color: #D6D6D6;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+#search-content input{
+    background: none;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+#search-content input:target {
+    background: none;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+#cart {
+    width: 24px;
+    height: 24px;
+    margin-right: 2rem;
+    background:none;
+    border: none;
+    border-radius: 2rem;
+}
+
+/* Conteudo */
+
+#info-container{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+#info-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5rem;
+    width: 100%;
+    
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto img,
+h3
+{
+    margin-right: 0.3rem;
+}
+
+.texto p,
+a{
+    font-size: 0.9rem;
+}
+
+.texto a{
+    text-decoration: underline;
+}
+
+.fa-angle-left,
+.fa-angle-right{
+    cursor:pointer;
+}
+
+video{
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0.5rem auto;
+}
+
+#invi-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+#invi-content h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+#invi-content h1{
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.link-button{
+    color: #fff;
+    background-color: #000;
+    width: 10%;
+    height: 3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.link-button:hover{
+    background-color: #555;
+    border: none;
+}
+
+.text-container{
+    display: flex;
+    margin-left: 15%;
+}
+
+.img-container img{
+    width: 70%;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container input{
+    margin: 0 1rem;
+}
+
+#img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    padding-bottom: 10rem;
+}
+
+#img-grid img{
+    width: 100%;
+}
+
+footer{
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer h4{
+    font-size: 1.2rem ;
+}
+
+#register-container{
+    background-color: #111;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#social-media{
+    line-height: 2rem;
+    width: 13rem;
+}
+
+#social-media i{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+}
+
+#social-media img{
+    background-color: #fff;
+    padding: 0.2rem;
+
+}
+
+#register-container a{
+    color: #fff;
+}
+
+#copy-content{
+    padding-right: 5rem;
+}
+
+#copy-content p{
+    font-size: 0.8rem;
+}
+
+#links-footer a{
+    padding-right: 1.5rem;
+}
+
