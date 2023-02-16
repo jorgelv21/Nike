@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ad55847e1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="/javascript/scripts.js"></script>
+    <script src="/javascript/scripts.js" defer></script>
     <title>Nike - Produtos e Coleções Exclusivas - Just Do It</title>
 </head>
 
@@ -15,8 +15,8 @@
     <header>
         <div id="upper-navbar">
             <div id="jordan-container">
-                <img src="./img/jordan.svg" alt="Jordan">
-                <img src="img/snkrs.svg" alt="snkrs">
+                <img src="./img/jordan.svg" alt="Jordan" id="Jordan">
+                <img src="img/snkrs.svg" alt="snkrs" id='snkrs'>
             </div>
             <div id="upper-menu">
                 <a href="#">Ajuda</a>
@@ -89,12 +89,12 @@
         <div id="home-container">
             <video src="./media/main.mp4" autoplay loop muted></video>
         </div>
-        <a href="#">
+        <a href="https://www.nike.com.br/hotsite/novo-invincible3">
             <div id="invi-content">
                 <h3>Novo Nike Invincible 3</h3>
                 <h1>SINTA PARA ACREDITAR</h1>
                 <h3>Muito amortecimento. Muitas sensações</h3>
-                <input type="button" class="link-button" value="Ver Lançamento">
+                <input type="button" class="link-button" value="Ver Lançamento" onclick="invicible()">
             </div>
         </a>
         <div class="text-container">
@@ -104,8 +104,8 @@
             <img src="img/tout-future-fitness-30-01-desk.avif" alt="Women">
         </div>
         <div class="btn-container">
-            <input type="button" value="Ver Coleção" class="link-button">
-            <input type="button" value="Saiba Mais" class="link-button">
+            <input type="button" value="Ver Coleção" class="link-button" onclick="womanlink()">
+            <input type="button" value="Saiba Mais" class="link-button" onclick="womanknow()">
         </div>
 
         </div>
@@ -116,13 +116,13 @@
             <img src="img/tout-phantom-gx-desk.avif" alt="Soccer">
         </div>
         <div class="btn-container">
-            <input type="button" value="Ver Coleção" class="link-button">
+            <input type="button" value="Ver Coleção" class="link-button" id="soccer-btn">
         </div>
         <div class="text-container">
             <h2>Nike Membership</h2>
         </div>
         <div class="img-container">
-            <img src="img/tout-membership-atletas-desk-v2.webp" alt="Member">
+            <img src="img/tout-membership-atletas-desk-v2.webp" alt="Member" id="member-img">
         </div>
         <div id="knowledge-content">
             <div class="text-container">
